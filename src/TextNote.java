@@ -7,7 +7,7 @@ public class TextNote {
 	
 	/* Constructor: Store Message */
 	public TextNote(String message) {
-		this.message = message;
+		this.setMessage(message);
 	}
 	
 	

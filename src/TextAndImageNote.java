@@ -8,7 +8,7 @@ public class TextAndImageNote extends TextNote {
 	/* Constructor: Sets message and image */
 	public TextAndImageNote(String message, String image) {
 		super(message);
-		this.image = image;
+		this.setImage(image);
 	}
 	
 	
